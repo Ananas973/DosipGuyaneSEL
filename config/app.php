@@ -143,7 +143,7 @@ return [
         /*
          * Package Service Providers...
          */
-        OscarAFDev\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
+        
         /*
          * Application Service Providers...
          */
@@ -157,6 +157,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
+        OscarAFDev\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
         App\Providers\CustomConfigServiceProvider::class,
         Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
