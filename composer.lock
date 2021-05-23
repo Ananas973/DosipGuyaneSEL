@@ -7746,7 +7746,6 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Way\\Generators\\GeneratorsServiceProvider",
                         "OscarAFDev\\MigrationsGenerator\\MigrationsGeneratorServiceProvider"
                     ]
                 }
